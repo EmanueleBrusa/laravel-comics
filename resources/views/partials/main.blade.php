@@ -5,7 +5,8 @@
     <!-- Inizio ciclo foreach per fumetti -->
     <div class="bg-black">
         <div class="container">
-            <div class="row">           
+            <div class="row pos_rel">
+                <div class="badge col-2 text-center"> CURRENT SERIES</div>       
                 @foreach($comics as $comic)
                     <div class="col-12 col-md-6 col-lg-2 mt-5">
                         <div class="my-1">
@@ -16,6 +17,9 @@
                         </div>
                     </div>
                 @endforeach
+            </div>
+            <div class="d-flex justify-content-center text-center align-items-center my-4 pb-4">
+                <button type="button">LOAD MORE</button>
             </div>
         </div>
     </div>

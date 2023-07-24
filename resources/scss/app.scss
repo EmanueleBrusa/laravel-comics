@@ -5,3 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    border: 5px solid transparent;
+
+    &:hover {
+        border-bottom: 5px solid #0282f9;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+
+    &:hover {
+        color: #0282f9;
+    }
+}
+
+.active_a {
+    color: #0282f9
+}
+
+.active_li {
+    color: #0282f9
+}

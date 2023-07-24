@@ -17,50 +17,14 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center align-items-center mt-4">
-                    <img class="m-2" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
-                    <div class="navbar-nav container navbar-light">
-                    <ul class="list-unstyled d-flex justify-content-center text-uppercase mb-0">
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active' : ''}}" href="{{ route('homepage') }}">Home</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">COMICS</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">MOVIES</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">TV</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">GAMES</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">COLLECTIBLES</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">VIDEOS</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">FANS</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">NEWS</a>
-                        </li>
-                        <li class="nav-item px-2 py-2">
-                            <a class="nav-link">SHOP</a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('partials.header');
     </header>
     <main>
-
+        <div class="row">
+            <div class="col-12">
+                <img src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
+            </div>
+        </div>
     </main>
     <footer>
         

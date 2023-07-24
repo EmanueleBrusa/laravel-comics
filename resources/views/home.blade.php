@@ -16,18 +16,17 @@
 </head>
 
 <body>
-
     <main class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    Ciao, test di funzionamento
+                    <div class="logo text-center">
+                        <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
+                    </div>
                 </div>
             </div>
-
         </div>
     </main>
-
 </body>
 
 </html>

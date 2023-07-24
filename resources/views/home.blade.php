@@ -20,13 +20,7 @@
         @include('partials.header');
     </header>
     <main>
-        <!-- Inizio jumbotron -->
-        <div class="row">
-            <div class="col-12">
-                <img src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
-            </div>
-        </div>
-        <!-- Fine jumbotron -->
+        @include('partials.main');
     </main>
     <footer>
         

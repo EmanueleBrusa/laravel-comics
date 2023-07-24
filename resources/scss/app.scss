@@ -41,3 +41,10 @@ a {
 .active_li {
     color: #0282f9
 }
+
+.jumbotron {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}

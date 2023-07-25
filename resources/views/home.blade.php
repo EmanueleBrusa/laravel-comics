@@ -23,7 +23,7 @@
         @include('partials.main');
     </main>
     <footer>
-    
+        @include('partials.footer');
     </footer>
 </body>
 

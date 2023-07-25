@@ -21,7 +21,7 @@
                 @endforeach
             </div>
             <!-- bottone load more -->
-            <div class="d-flex justify-content-center text-center align-items-center my-4 pb-4">
+            <div class="d-flex justify-content-center text-center align-items-center pb-4">
                 <button type="button">LOAD MORE</button>
             </div>
             <!-- fine bottone -->
@@ -31,7 +31,7 @@
     <div class="bg-icons">
         <div class="container">
             <div class="row">
-                <div class="col-12 px-2 py-2">
+                <div class="col-12 justify-content-around align-items-center py-4 mx-5">
 
                     <img class="blue-strip-logo" src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="">
                     <span>DIGITAL COMICS</span>
@@ -42,7 +42,7 @@
                     <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="">
                     <span>SUBSCRIPTION</span>
 
-                    <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="">
+                    <img id="locator" src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="">
                     <span>COMIC SHOP LOCATOR</span>
 
                     <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="">

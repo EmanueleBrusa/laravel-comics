@@ -5,7 +5,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-10 d-flex justify-content-center align-items-center mt-2">
+            <div class="col-10 d-flex justify-content-center align-items-center">
                 <!-- Inizio logo -->
                 <img class="m-2" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
                 <!-- Fine logo -->

@@ -1,7 +1,11 @@
 <header>
+    <div class="credit d-flex justify-content-end align-items-center px-5">
+        <span class="px-5">DC POWER&trade;VISA&reg;</span>
+        <span>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down"></i></span> 
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-10 d-flex justify-content-center align-items-center mt-2">
+            <div class="col-10 d-flex justify-content-center align-items-center">
                 <!-- Inizio logo -->
                 <img class="m-2" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
                 <!-- Fine logo -->

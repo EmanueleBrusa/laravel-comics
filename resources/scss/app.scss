@@ -6,11 +6,15 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 135px;
+}
+
 .credit {
     background-color: #0282f9;
 }
 
-header span {
+span {
     font-size: 13px;
     font-weight: 300;
     color: #fff;
@@ -20,13 +24,13 @@ header span {
     background-color: #0282f9;
 }
 
-header ul {
+ul {
     list-style-type: none;
     display: flex;
     align-items: center;
 }
 
-li {
+.nav-item {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -100,4 +104,100 @@ button {
 
 .bg-icons {
     background-color: #0074e8;
+}
+
+.bg-icons {
+    background-color: #0074e8;
+
+    img {
+        width: 5%;
+    }
+
+    .locator {
+        width: 40px;
+        height: 55px;
+    }
+
+    span {
+        margin-right: 40px;
+    }
+}
+
+.cont {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* Aggiungi display flex per centrare verticalmente il contenuto */
+    align-items: center;
+    /* Centra verticalmente il contenuto */
+    justify-content: space-around;
+    /* Centra orizzontalmente il contenuto */
+
+    .row {
+        width: 100%;
+        background-image: url(../images/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        display: flex;
+
+        .site-content {
+            color: gray;
+            font-size: 15px;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .logo-strip {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                line-height: 25px;
+
+                a {
+                    color: gray;
+                    font-size: 15px;
+                    text-decoration: none;
+                }
+
+                h4 {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.bg-footer {
+    background-color: #303030;
+
+    button {
+        background-color: #303030;
+        border: 3px solid #0074E8;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .icone {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            color: #0074E8;
+            padding: 0 15px;
+        }
+
+        a {
+            padding: 0 5px;
+        }
+    }
 }
